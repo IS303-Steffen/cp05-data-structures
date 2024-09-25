@@ -4,7 +4,7 @@ This file contains two sorting algorithms
     - tim sort
         - which uses insertion sort and merge sort
 
-These sorting functions are used in the EXTRA_01_sort_test
+These sorting functions are used in the extra_01_sort_test
 as a way to show how fast the python built-in functions are.
 '''
 

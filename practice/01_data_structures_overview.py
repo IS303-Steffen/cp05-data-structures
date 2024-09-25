@@ -144,7 +144,7 @@ Be vaguely aware of these, but we won't use them in this class. You can think
 of it as a dictionary without values. You would only use them to store data
 where every value needs to be unique.
 
-A primary use case if for set logic/set algebra (think venn diagrams)
+A primary use case is for set logic / set algebra (think venn diagrams)
 
     - Sets use curly braces, without colons { }
     - Mutable. 

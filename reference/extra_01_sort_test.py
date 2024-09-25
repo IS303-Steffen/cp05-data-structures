@@ -33,7 +33,7 @@ for sorting.
 
 This is also because the functions built into python for sorting are already
 incredibly efficient. This file is referencing two sorting functions
-that are in the EXTRA_02_sorting_algorithms.py file. 
+that are in the extra_02_sorting_algorithms.py file. 
 
 One is a bubble sort, which is a classic and simple sorting algorithm.
 You can see a simple visualization of it here:
