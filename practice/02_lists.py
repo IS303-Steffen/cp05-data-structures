@@ -81,10 +81,10 @@ example_list.append("Thing you want to add")
 # 7. ADD ELEMENTS AT THE BEGINNING AND MIDDLE OF YOUR LIST:
 # Add "Fred" to the beginning of the list. Add "George" to the 3rd position
 '''
-You can use .insert(item, index) to insert a new element
+You can use .insert(index, item) to insert a new element
 at the index you specify:
 
-example_list.insert("Thing to add", 2)
+example_list.insert(2, "Thing to add")
 '''
 
 
