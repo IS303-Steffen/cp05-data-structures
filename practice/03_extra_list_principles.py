@@ -44,7 +44,6 @@ harry_potter_characters = [
 # into 3 separate variables, then print each out.
 
 
-
 '''
 NESTED LISTS
 ------------
@@ -54,7 +53,6 @@ element.
 Lists themselves are variables. That means they can be elements of lists.
 So you can have a list with multiple lists inside it. This is a nested list.
 '''
-
 
 # Characters from Lord of the Rings
 lord_of_the_rings_characters = [

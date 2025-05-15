@@ -19,8 +19,8 @@ clear_screen()
 '''
 OVERVIEW
 --------
-Data structures are data types that can store many variables inside of them.
-Every variable in a data structure is referred to as an "element" or an "item".
+Data structures are data types that can store many values inside of them.
+Every value in a data structure is referred to as an "element" or an "item".
 
 This .py file is meant as a high-level overview of python's standard data
 structures. There are no practice problems here, but there are in the other
@@ -29,7 +29,7 @@ files.
 TERMS TO KNOW
 -------------
 Element:
-    - An individual variable in a data structure. You can also just say item.
+    - An individual value in a data structure. You can also just say item.
 
 Immutable:
     - CAN'T be changed. Once you create it, you have to destroy it
