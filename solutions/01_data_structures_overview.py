@@ -40,22 +40,13 @@ The most common data structure you'll use. Become familiar with it.
     - Mutable, so you can add to them, delete things from them,
       update stuff from them, etc.
 '''
-# 1. MAKE A LIST USING []:
+# 1. MAKE A LIST USING [], change and add to it:
 list_example = ['first thing', 'second thing', 'third thing']
-
-# 2. PRINT A WHOLE LIST:
 print(list_example)
-
-# 3. ACCESS INDIVIDUAL ELEMENT IN A LIST:
 print(list_example[0])
-
-# 4. ALTER INDIVIDUAL ELEMENT IN A LIST:
-list_example[0] = "altered first thing"
-print(list_example)
-
-# 5. ADD ELEMENT TO A LIST:
-list_example.append('fourth thing')
-print(list_example)
+list_example[0] = "altered first thing" # alter exisiting elements
+list_example.append('fourth thing') # add to it
+print(list_example) # see the changed list
 
 clear_screen()
 
@@ -71,22 +62,11 @@ in this class. It is good to recognize it when you see one though.
       that won't be accidentally changed somewhere else in your code.
 '''
 
-# 6. MAKING A TUPLE:
+# 2. MAKING A TUPLE:
 tuple_example = ('first thing', 'second thing', 'third thing')
-
-# 7. PRINTING OUT AN ENTIRE TUPLE:
 print(tuple_example)
-
-# 8. ACCESSING A SINGLE ELEMENT IN A TUPLE:
-print(tuple_example[0])
-
-# 9. "ADDING" ELEMENT TO A TUPLE:
-'''
-You can't add to a tuple. Only way to get around that
-is to just make a new one.
-'''
-new_tuple_example = tuple_example + ("fourth thing",)
-print(new_tuple_example)
+# this wouldn't work, Tuples are immutable; you can't change them
+# tuple_example[0] = "edited first thing"
 
 clear_screen()
 
@@ -104,25 +84,11 @@ you get access to the value (the definition) associated with the key.
     - Mutable. Great for storing things and getting access to them later.
 '''
 
-# 10. CREATING A DICTIONARY:
+# 3. CREATING A DICTIONARY:
 # Using a name as the key, and an age as the value
 dictionary_example = {"Heidi" : 43, "Howard" : 15, "Helga" : 27}
-
-# 11. PRINTING A WHOLE DICTIONARY:
 print(dictionary_example)
-
-# 12. PRINTING JUST THE KEYS OF A DICTIONARY:
-print("\nkeys:", dictionary_example.keys())
-
-# 13. PRINTING JUST THE VALUES OF A DICTIONARY:
-print("\nvalues:", dictionary_example.values())
-
-# 14. PRINTING EACH KEY AND VALUE IN A LIST OF TUPLES
-print("\nkeys and values:", dictionary_example.items())
-
-# 15. ACCESSING AN INDIVIDUAL VALUE
-# This is usually how you use dictionaries. You enter a key to get the value.
-print(dictionary_example['Heidi'])
+print(dictionary_example['Heidi']) # You enter a key to get the value.
 
 clear_screen()
 
@@ -139,18 +105,18 @@ A primary use case is for set logic / set algebra (think venn diagrams)
     - Mutable. 
 '''
 
-
+# 4. EXAMPLES OF SETS
 set_example1 = {"Heidi", "Howard", "Helga"}
 set_example2 = {"Homer", "Heidi", "Happy"}
 
-# 16. SET UNION (COMBINE WITH NO DUPLICATES):
+# 4.1. SET UNION (COMBINE WITH NO DUPLICATES):
 print("\nunion:", set_example1 | set_example2)
 
-# 17. SET INTERSECTION (ELEMENTS IN BOTH SETS):
+# 4.2 SET INTERSECTION (ELEMENTS IN BOTH SETS):
 print("\nintersection:", set_example1 & set_example2)
 
-# 18. SET DIFFERENCE (ELEMENTS IN FIRST BUT NOT SECOND SET):
+# 4.3 SET DIFFERENCE (ELEMENTS IN FIRST BUT NOT SECOND SET):
 print("\ndifference:", set_example1 - set_example2)
 
-# 19. SET SYMMETRIC DIFFERENCE (ELEMENTS IN ONE OR THE OTHER BUT NOT BOTH):
+# 4.4 SET SYMMETRIC DIFFERENCE (ELEMENTS IN ONE OR THE OTHER BUT NOT BOTH):
 print("\nsymmetric difference:", set_example1 ^ set_example2)

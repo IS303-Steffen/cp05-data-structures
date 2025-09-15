@@ -38,7 +38,7 @@ using precompiled C code that came with python when you installed it. It is
 incredibly efficient. Run the code in this file and see how fast the built-in
 function in python is. Its part of the reason we don't cover algorithms in more
 detail. There is already such an efficiently built way to sort (and other ways
-in exisitng libraries) that we want to focus more on HOW to use that to solve
+in exisiting libraries) that we want to focus more on HOW to use that to solve
 problems, rather than reinventing the wheel.
 
 '''
