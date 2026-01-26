@@ -50,7 +50,8 @@ list_c = list_a
 
 
 '''
-NOTE: DOESN'T APPLY TO IMMUTABLE DATAYPES
+IMPORTANT: DOESN'T APPLY TO IMMUTABLE DATAYPES
+----------------------------------------------
 '''
 # # assign num_2 to equal num_1
 # num_1 = 1
